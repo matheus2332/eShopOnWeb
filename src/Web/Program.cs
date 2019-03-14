@@ -32,7 +32,7 @@ namespace Microsoft.eShopWeb.Web
                 catch (Exception ex)
                 {
                     var logger = loggerFactory.CreateLogger<Program>();
-                    logger.LogError(ex, "An error occurred seeding the DB.");
+                    logger.LogError(ex, "An error occurred seeding the DB teste.");
                 }
             }
 
